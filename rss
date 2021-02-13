@@ -1,13 +1,4 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<?xml-stylesheet type="text/xsl" href="https://nfultz.github.io/cover_sandwich/rss.xsl" media="screen" ?>
-                                                                                 
-                                                                                 
-                                                                                 
-                                                                                 
-                                                                                 
-                                                                                 
-                                                                                 
-                                                                                 
                                                                                  
 <rss version="2.0">
 <channel>
@@ -20,6 +11,39 @@
     <title>Slow Jams</title>
     <link>https://www.youtube.com/watch?list=PLz7_TxhJcacFfIYR3gO19OYrxPg0U45EP</link>
 </item>
+
+<item>
+    <pubDate>Feb 12</pubDate>
+    <title>Nobody knows me</title>
+    <link>https://www.youtube.com/watch?list=PLz7_TxhJcacFWoyvjkth2DrwVMsBYs4aQ</link>
+</item>
+
+<item>
+    <pubDate>Feb 11</pubDate>
+    <title>60s pop</title>
+    <link>https://www.youtube.com/watch?list=PLz7_TxhJcacH_wE0iK2HOdAJUfdZeV8kZ</link>
+</item>
+
+<item>
+    <pubDate>Feb 10</pubDate>
+    <title>90s Punk</title>
+    <link>https://www.youtube.com/watch?list=PLz7_TxhJcacHcFxtMerqSqw7W3Gy-L0qX</link>
+</item>
+
+<item>
+    <pubDate>Feb 9</pubDate>
+    <title>Surf Rock</title>
+    <link>https://www.youtube.com/playlist?list=PLz7_TxhJcacFeatnjzbPjTt6a5YeSiJI6</link>
+</item>
+
+
+
+
+
+
+
+
+
 
 </channel>
 </rss>
