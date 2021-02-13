@@ -7,32 +7,21 @@
 	<!-- Start matching at the Channel node within the XML RSS feed. -->
 	<xsl:template match="/rss/channel">
 
-		<html lang="en">
+		<html>
 		<head>
-			<meta charset="utf-8" />
 			<title> <xsl:value-of select="title" /> </title>
             <link rel="stylesheet" type="text/css" href="https://unpkg.com/sakura.css/css/sakura.css"/>
 		</head>
 
 		<body>
 
-			<h1 class="title">
-				<xsl:value-of select="title" />
-			</h1>
-
-			<p class="description">
-				<xsl:value-of select="description" />
-			</p>
+			<h1> <xsl:value-of select="title" /> </h1>
 
             <xsl:for-each select="./item">
 
-
-                <h2>
-                    <xsl:value-of select="pubDate"/>
-                </h2>
+                <h2> <xsl:value-of select="pubDate"/> </h2>
 
                 <a href="{ link }"> <xsl:value-of select="title" /> </a>
-
 
             </xsl:for-each>
 
